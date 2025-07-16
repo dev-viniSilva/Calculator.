@@ -1,0 +1,100 @@
+body {
+    background-color: #1f1d1d;
+    text-align: center;
+    margin-left: 47em;
+    margin-right: 47em;
+}
+
+.div-calculator {
+    text-align: center;
+    margin-top: 12em;
+    border: 2px solid white;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+.input-calculator::placeholder {
+    font-size: 1.5em;
+    text-align:right;
+    color: white;
+    font-family: monospace;
+}
+
+.input-calculator {
+background-color: #222222;
+border: 1px solid yellow;
+color: white;
+border-radius: 4px;
+padding: 1em 5em;
+padding-right: 1em;
+margin: 1em;
+text-align: right;
+font-size: 1.5em;
+font-family: monospace;
+}
+
+.calculator-4row {
+display: flex;
+ justify-content: center;
+ gap: 1.5em;
+ padding: 1em;
+}
+
+.bt-number {
+background-color: #222222;
+padding: 2.3em;
+border-radius: 280px;
+border: 2px solid yellow;
+color: white;
+margin: 0.3em;
+
+}
+
+.bt-sign {
+background-color: #222222;
+padding: 1em 3em;
+color: white;
+border-radius: 12px 1px;
+}
+
+.bt-signBlock {
+background-color: #222222;
+
+padding: 1em;
+color: white;
+border-radius:8px;
+font-size: 20px;
+}
+
+.div-bottomcalc {
+justify-content: center;
+ display: flex;
+ gap: 2em;
+ margin: 1em;
+    
+}
+
+@media screen and (max-width:768px){
+    body {
+    margin-left: 1em;
+    margin-right: 1em;
+    }
+
+    .bt-number {
+        padding: 2em;
+    }
+
+    .input-calculator {
+        padding: 1em 4em;
+       padding-right: 0.7em;
+    }
+
+    .calculator-4row {
+        gap: 1em;
+        
+    }
+
+    .div-calculator {
+        margin-top: 7em;
+    }
+}
