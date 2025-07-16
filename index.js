@@ -1,5 +1,6 @@
 const total = document.getElementById('total');
 
+
 function addNumber(value) {
 total.value += value;
 }
