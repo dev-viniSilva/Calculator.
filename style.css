@@ -1,5 +1,5 @@
 body {
-    background-color: #0c1b44;
+    background-color: #000000;
     text-align: center;
     margin-left: 47em;
     margin-right: 47em;
@@ -19,7 +19,7 @@ body {
 }
 
 .input-calculator::placeholder {
-    font-size: 1.5em;
+    font-size: 26px;
     text-align:right;
     color: white;
     font-family: monospace;
@@ -27,23 +27,23 @@ body {
 }
 
 .input-calculator {
-background-color: #222222;
-border: 2px solid white;
+background-color: transparent;
+border: none;
 color: white;
 border-radius: 4px;
-padding: 1em 5em;
+padding: 1em 2em;
 padding-right: 1em;
-margin: 1em;
 text-align: right;
-font-size: 1.5em;
+font-size: 26px;
 font-family: monospace;
+margin: 10px;
 }
 
 .calculator-4row {
 display: flex;
  justify-content: center;
  gap: 5px;
- padding: 1em;
+ padding: 6px;
 }
 
 .bt-number {
@@ -90,22 +90,35 @@ border-radius: 100px 10px;
     }
 
     .bt-number {
-        padding: 1.2em;
-        font-size: 28px;
+        padding: 1em ;
+        font-size: 30px;
+        border-radius: 360px;
+    }
+
+    .bt-sign {
+        padding: 1em ;
+        font-size: 30px;
+        border-radius: 360px;
+    }
+
+    .bt-signBlock {
+        padding: 1em ;
+        font-size: 30px;
+        border-radius: 360px;
     }
 
     .input-calculator {
         padding: 1em ;
-       padding-right: 0.7em;
     }
 
     .calculator-4row {
-        gap: 5px;
+        gap: 2px;
         
     }
 
     .div-calculator {
         margin-top: 6em;
         border: none;
+        
     }
 }
