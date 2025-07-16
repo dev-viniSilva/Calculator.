@@ -106,5 +106,6 @@ border-radius: 100px 10px;
 
     .div-calculator {
         margin-top: 6em;
+        border: none;
     }
 }
