@@ -52,17 +52,17 @@ margin: 0.3em;
 
 .bt-sign {
 background-color: #222222;
-padding: 1em 3em;
+padding: 2em 3em;
 color: white;
-border-radius: 12px 1px;
+border-radius: 280px ;
 }
 
 .bt-signBlock {
 background-color: #222222;
 
-padding: 1em;
+padding: 1em 1.5em;
 color: white;
-border-radius:8px;
+border-radius:280px;
 font-size: 20px;
 }
 
